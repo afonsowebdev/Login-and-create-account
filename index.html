@@ -17,44 +17,42 @@
 
 <body>
     <div class="container" id="container">
-        <section class="login-box" id="loginBox">
+        <h1 class="login-title">Entrar</h1>
+            <p class="login-paragraph">
+                Acesse sua conta para continuar e aproveitar todos os recursos disponíveis.
+            </p>
+        <div class="login">
+            <form action="" class="login-form">
+                <div class="group-input">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                </div>
 
-            <!-- <div class="login-rigth">
-                <p class="description">Nice to see you again</p>
-                <h1 class="title">WELCOME BACK</h1>
-                <hr class="line">
-                <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci id autem, natus voluptatem nemo illum expedita nisi vero quis. Sint inventore neque dolorum quasi dicta nobis velit nam dolorem itaque.</p>
-            </div> -->
+                <div class="group-input">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+                </div>
 
-            <div class="login-left">
-                <h2 class="subtitle">Login Account</h2>
-                <p class="description">Log in to access your account and enjoy all the features of the platform.
-                </p>
+                <div class="group-input">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Sua senha" required>
+                </div>
 
-                <form action="" class="form">
-                    <div class="input-group">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
+                <div class="group-links">
+                    <label for="lembrar">
+                        <input type="checkbox" name="lembrar" id="lembrar">
+                        Lembrar de mim
+                    </label>
 
-                    <div class="input-group">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password" required>
-                    </div>
+                    <a href="#" class="links">Esqueceu sua senha?</a>
+                </div>
 
-                    <div class="input-group">
-                        <label for="remember-me">
-                            <input type="checkbox" name="remember-me" id="remember-me"> Keep me signed in
-                        </label>
-                        <a href="#">Already a member?</a>
-                    </div>
+                <div class="group-input">
+                    <button type="submit" class="login-button">Entrar</button>
+                </div>
 
-                    <div class="input-group">
-                        <button type="submit" class="btn">Entrar</button>
-                    </div>
-                </form>
-            </div>
-        </section>
+            </form>
+        </div>
     </div>
 </body>
 
