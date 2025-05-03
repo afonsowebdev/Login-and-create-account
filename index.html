@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-PT">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Login</title>
 </head>
+
 <body>
-    
+
+    <div class="estrelas"></div>
+    <form action="" class="form">
+        <h1>Login</h1>
+        <div class="input-grup">
+            <input type="text" placeholder="Seu nome" required>
+            <i class='bx bxs-user'></i>
+        </div>
+
+        <div class="input-grup">
+            <input type="password" placeholder="Senha" required>
+            <i class='bx bxs-lock-alt'></i>
+        </div>
+
+        <div class="input-grup-lembrar">
+            <label for="check"> <input type="checkbox" id="check" class="check"> Lembrar-me</label>
+            <a href="#">Esqueceu sua senha?</a>
+        </div>
+
+        <button type="submit" class="btn">Entrar</button>
+
+        <div class="link-registo">
+            <p>Não tem uma conta? <a href="#">Registrar</a></p>
+        </div>
+    </form>
+
 </body>
+
 </html>
