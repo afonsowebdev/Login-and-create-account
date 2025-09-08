@@ -37,7 +37,20 @@ body {
         radial-gradient(1px 1px at 60% 20%, #fff, transparent),
         radial-gradient(1px 1px at 5% 30%, #fff, transparent),
         radial-gradient(1px 1px at 80% 40%, #fff, transparent),
-        radial-gradient(1px 1px at 15% 50%, #fff, transparent),
+        radial-gradient(1px 1px at 80% 50%, #fff, transparent),
+        radial-gradient(1px 1px at 100% 60%, #fff, transparent),
+        radial-gradient(1px 1px at 25% 15%, #fff, transparent),
+        radial-gradient(2px 1px at 50% 40%, #fff, transparent),
+        radial-gradient(2px 2px at 75% 35%, #fff, transparent),
+        radial-gradient(1.5px 1px at 10% 50%, #fff, transparent),
+        radial-gradient(1px 1px at 20% 60%, #fff, transparent),
+        radial-gradient(1px 1px at 20% 70%, #fff, transparent),
+        radial-gradient(1px 1px at 25% 80%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 50% 5%, #fff, transparent),
+        radial-gradient(1px 1px at 60% 20%, #fff, transparent),
+        radial-gradient(1px 1px at 5% 30%, #fff, transparent),
+        radial-gradient(1px 1px at 80% 40%, #fff, transparent),
+        radial-gradient(1px 1px at 5% 95%, #fff, transparent),
         radial-gradient(1px 1px at 100% 60%, #fff, transparent);
 }
 
@@ -127,7 +140,8 @@ body {
 
 .form button:hover {
     background-color: #fff;
-    transform: translateY(-5px);
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .form .link-registo {
@@ -144,4 +158,10 @@ body {
 
 .form .link-registo a:hover {
     text-decoration: underline;
+}
+
+.form #msgSuccess {
+    color: #4BB543;
+    text-align: center;
+    margin: 10px;
 }
